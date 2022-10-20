@@ -10,7 +10,8 @@ Each folder / file has the following interface
     type: string,
     id: number,
     lastModified: Date,
-    detailedDate: Date
+    detailedDate: Date,
+    url: string
 }
 ```
 
@@ -24,7 +25,8 @@ A valid entity would look like this
     "type": "folder", // or "file"
     "id": 1,
     "lastModified": "10/14/2022",
-    "detailedDate": "Oct 14, 2022 1:34 PM"
+    "detailedDate": "Oct 14, 2022 1:34 PM",
+    "url": "https://FIREBASE_URL" // files only
 }
 ```
 
